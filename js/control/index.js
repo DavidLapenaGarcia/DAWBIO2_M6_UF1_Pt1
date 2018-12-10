@@ -2,8 +2,7 @@
 @name= (document).ready()
 @author= David Lapena Garcia
 @version= 1.0
-@description = Starts the app. First, shows the correct frame and hides the others
-Then, makes the logo dance.
+@description = Starts the app. Hides all the frames and shows the frame[0]
 @date = 10-12-2018
 @params= none
 @return = none
