@@ -13,15 +13,21 @@ body {
     width: 100%;
     position: absolute;
 }
+iframe{
+  height: 100%;
+  width: 100%;
+  position:fixed;
+  scrolling='no' 
+  frameborder='0'"
+}
 /*    .row.no-gutters
 Remove margin from the row
 Remove padding from all columns directly beneath the row
 */
 .row.no-gutters,
-frame .no-gutters {
+iframe .no-gutters {
   margin-right: 0;
   margin-left: 0;
-
   & > [class^="col-"],
   & > [class*=" col-"] {
     padding-right: 0;
