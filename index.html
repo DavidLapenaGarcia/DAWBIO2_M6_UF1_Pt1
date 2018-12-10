@@ -1,39 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <!-- HTML5 -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- Style CSS and Bootstrap -->
+    <!-- Links -->
     <link rel="stylesheet" href="./css/reset.css" media="screen" title="no title">
-    <link rel="stylesheet" href="./css/style.css" media="screen" title="no title">
-    <script
-        src="https://code.jquery.com/jquery-3.3.1.min.js"
-        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-        crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-    <!-- JQuery -->
-    <script
-        src="https://code.jquery.com/jquery-3.3.1.min.js"
+    <link rel="stylesheet" href="./css/style.css" media="screen" title="no title">
+    <script 
+        src="https://code.jquery.com/jquery-3.3.1.min.js" 
         integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous">
+    </script>
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
     <!-- Own code -->
     <script type="text/javascript" src="./js/control/index.js"></script>
     <title>Uf1_Pt1</title>
 </head>
+
 <body>
 
-    <div>
-        <div>
-            <h1>DAWBio M6 Uf1 Pt1</h1>
-            <h3>David Lapena Garcia</h3>
+    <div class="container-fluid bg-green3">
+        <div class="row no-gutters">
+            <div class="col-12 text-center bg-green1">
+                <h1>DAWBio M6 Uf1 Pt1</h1>
+                <h3>David Lapena Garcia</h3>
+            </div>
         </div>
-
-        <div>
-            <feame id="FormFrame" src="frames/fn1Frame.html" frameborder=0>
-            </feame>
+        <div class="row no-gutters">
+            <div class="col-12 d-flex justify-content-center bg-green2 p-1">
+                <div class="btn-group btn-group-justified" role="group" aria-label="Basic example">
+                    <button type="button" class="btn btn-secondary" onclick="fn1()">Fn1</button>
+                    <button type="button" class="btn btn-secondary" onclick="fn1()">Fn2</button>
+                    <button type="button" class="btn btn-secondary" onclick="fn1()">Fn3</button>
+                </div>
+            </div>
         </div>
+    <div > 
+        <feame id="Frame" src="frames/fn1Frame.html" frameborder=0>
+        </feame>
     </div>
+    </div>
+
 </body>
+
 </html>
