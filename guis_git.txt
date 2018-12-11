@@ -16,3 +16,5 @@ $git branch nAmE		Crea una branch/branca nueva
 $git checkout nAmE		Para entrar en una rama diferente. 
 $git remote add origin	https:
 $git push -u origin master	
+
+testing commit
