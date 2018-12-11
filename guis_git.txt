@@ -19,3 +19,5 @@ $git push -u origin master	To change in remote repository.
 
 testing commit
 it no changes in remote, only in local
+HOW 'DOWNLOAD':
+cnt+mayus+P -> writte 'git:clone' -> 'https:'
