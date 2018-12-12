@@ -1,5 +1,5 @@
 /*
-@name        = $("#buttonForm").clik()
+@name        = $(document).ready()
 @author      = David Lapena Garcia
 @version     = 1.0
 @description = Prevent the defult values on form tag and call the function
@@ -7,10 +7,25 @@
 @params      = none
 @return      = none
 */
-$("#buttonForm").click(function(){
-    event.preventDefault();
-    toIsPrime();
+$( document ).ready(function() {
+    
+    /*
+    @name        = $("#buttonForm").clik()
+    @author      = David Lapena Garcia
+    @version     = 1.0
+    @description = Prevent the defult values on form tag and call the function
+    @date        = 10-12-2018
+    @params      = none
+    @return      = none
+    */
+    $("#buttonForm").click(function(){
+        console.log("ok, cliked")
+        event.preventDefault();
+        toIsPrime();
+    })
+
 });
+
 
 /*
 @name        = ToIsPrime
